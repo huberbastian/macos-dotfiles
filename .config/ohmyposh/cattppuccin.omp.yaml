@@ -1,0 +1,60 @@
+# Based on https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/amro.omp.json 
+# Changed icons, git integration and added transient promt 
+# Using Dracula colors from https://github.com/joshdick/onedark.vim?tab=readme-ov-file
+
+# yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+final_space: true
+version: 3
+transient_prompt:
+  background: transparent
+  foreground: "#a6e3a1"
+  template: "\uf054 "
+blocks:
+  - type: prompt
+    alignment: left
+    segments:
+      - type: text
+        style: plain
+        foreground: "#cdd6f4"
+        template: "\uf427"
+      - type: path
+        style: plain
+        foreground: "#74c7ec"
+        template: " \uf07b {{ .Path }} "
+        properties: 
+          folder_separator_icon: "/"
+          style: full
+      - type: git
+        style: diamond
+        foreground: "#a6e3a1"
+        template: " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}"
+        properties: 
+          branch_icon: "\ue725"
+          fetch_upstream_icon: true
+          fetch_status: true
+      - type: git
+        style: diamond
+        foreground: "#f38ba8"
+        template: "{{ if .Working.Changed }} \uec0c {{ .Working.String }}{{ end }}"
+        properties:
+          fetch_worktree_count: true
+          fetch_status: true
+      - type: git
+        style: diamond
+        foreground: "#fab387"
+        template: "{{ if .Staging.Changed }} \ueafc {{ .Staging.String }}{{ end }}"
+        properties:
+          fetch_worktree_count: true
+          fetch_status: true
+  - type: prompt
+    alignment: left
+    newline: true
+    segments:
+      - type: root
+        style: plain
+        foreground: "#f38ba8"
+        template: "\ue3bf"
+      - type: text
+        style: plain
+        foreground: "#a6e3a1"
+        template: "\uf054"
