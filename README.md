@@ -1,12 +1,10 @@
-<div align="center">
-  
 # MacOS Config Files
 
-</div>
+MacOS configuration files mostly using [Catppuccin](https://catppuccin.com/) colors.
 
 ## Usage
 
-1. If not already installed, install [[Homebrew](https://brew.sh/) 
+1. If not already installed, install [Homebrew](https://brew.sh/) 
 2. Install GNU Stow with:
 ```bash
 brew install stow
