@@ -2,6 +2,16 @@
 
 MacOS configuration files mostly using [Catppuccin](https://catppuccin.com/) colors.
 
+## Components
+
+| Category | Software |
+|----------|----------|
+| Window Management | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
+| Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
+| Terminal | [Ghostty](https://ghostty.org/) |
+| Shell | [Zsh](https://www.zsh.org/) |
+| Shell Prompt | [Oh My Posh](https://ohmyposh.dev/) |
+
 ## Usage
 
 1. If not already installed, install [Homebrew](https://brew.sh/) 
@@ -15,13 +25,3 @@ git clone https://github.com/huberbastian/macos-dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
 ```
-
-## Components
-
-| Category | Software |
-|----------|----------|
-| Window Management | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
-| Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
-| Terminal | [Ghostty](https://ghostty.org/) |
-| Shell | [Zsh](https://www.zsh.org/) |
-| Shell Prompt | [Oh My Posh](https://ohmyposh.dev/) |

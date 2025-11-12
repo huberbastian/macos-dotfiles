@@ -1,6 +1,6 @@
 # Based on https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/amro.omp.json 
 # Changed icons, git integration and added transient promt 
-# Using Dracula colors from https://github.com/joshdick/onedark.vim?tab=readme-ov-file
+# Using Catppuccin colors
 
 # yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
 final_space: true
