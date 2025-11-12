@@ -13,6 +13,7 @@ MacOS configuration files mostly using [Catppuccin](https://catppuccin.com/) col
 | Terminal | [Ghostty](https://ghostty.org/) |
 | Shell | [Zsh](https://www.zsh.org/) |
 | Shell Prompt | [Oh My Posh](https://ohmyposh.dev/) |
+| Editor | [LazyVim](https://www.lazyvim.org/) |
 
 ## Usage
 
