@@ -8,19 +8,25 @@ source "${ZINIT_HOME}/zinit.zsh"
 source $HOME/.zsh_syntax_themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 # Load Plugins
-autoload -U compinit; compinit
 zinit snippet OMZP::git
+zinit light zsh-users/zsh-completions
+autoload -U compinit; compinit
 zinit light Aloxaf/fzf-tab
 zinit light MichaelAquilina/zsh-you-should-use
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-history-substring-search
 
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*:descriptions' format '[%d]'
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' menu no
+
 # Env Vars
 
 export EDITOR="nvim"
 export JAVA_HOME="/opt/homebrew/opt/openjdk"
-export PNPM_HOME="/Users/basti/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 
 export PATH="$HOME/bin:$PATH"
 export PATH="$JAVA_HOME/bin:$PATH"
