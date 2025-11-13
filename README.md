@@ -2,7 +2,8 @@
 
 MacOS configuration files mostly using [Catppuccin](https://catppuccin.com/) colors.
 
-<img width="759" height="454" alt="Screenshot 2025-11-12 at 13 30 12" src="https://github.com/user-attachments/assets/8feb327c-9927-49ae-9106-be371903b086" />
+<img width="1512" height="952" alt="Screenshot 2025-11-13 at 11 47 46" src="https://github.com/user-attachments/assets/bca35509-0d5e-47c0-ac5a-6fe226053f1b" />
+
 
 ## Components
 
