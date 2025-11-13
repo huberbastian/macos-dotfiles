@@ -8,7 +8,7 @@ version: 3
 transient_prompt:
   background: transparent
   foreground: "#a6e3a1"
-  template: "\uf054 "
+  template: " "
 blocks:
   - type: prompt
     alignment: left
@@ -16,11 +16,11 @@ blocks:
       - type: text
         style: plain
         foreground: "#cdd6f4"
-        template: "\uf427 "
+        template: " "
       - type: path
         style: plain
         foreground: "#89b4fa"
-        template: " \uf07b {{ .Path }} "
+        template: "  {{ .Path }} "
         properties: 
           folder_separator_icon: "/"
           style: full
@@ -29,20 +29,20 @@ blocks:
         foreground: "#a6e3a1"
         template: " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}"
         properties: 
-          branch_icon: "\ue725"
+          branch_icon: ""
           fetch_upstream_icon: true
           fetch_status: true
       - type: git
         style: diamond
         foreground: "#f38ba8"
-        template: "{{ if .Working.Changed }} \uec0c {{ .Working.String }}{{ end }}"
+        template: "{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}"
         properties:
           fetch_worktree_count: true
           fetch_status: true
       - type: git
         style: diamond
         foreground: "#fab387"
-        template: "{{ if .Staging.Changed }} \ueafc {{ .Staging.String }}{{ end }}"
+        template: "{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}"
         properties:
           fetch_worktree_count: true
           fetch_status: true
@@ -53,8 +53,8 @@ blocks:
       - type: root
         style: plain
         foreground: "#f38ba8"
-        template: "\ue3bf"
+        template: ""
       - type: text
         style: plain
         foreground: "#a6e3a1"
-        template: "\uf054"
+        template: ""
