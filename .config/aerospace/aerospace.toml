@@ -1,4 +1,5 @@
 # https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
+# config is here: ~/.config/borders/bordersrc
 after-startup-command = ['exec-and-forget borders']
 
 start-at-login = true
@@ -33,6 +34,7 @@ automatically-unhide-macos-hidden-apps = true
   inner.vertical   = 9
 
 [workspace-to-monitor-force-assignment]
+  # See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
   1 = 'main'
   2 = 'main'
   3 = 'main'

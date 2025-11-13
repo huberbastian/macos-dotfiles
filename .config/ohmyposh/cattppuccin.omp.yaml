@@ -1,6 +1,6 @@
 # Based on https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/amro.omp.json 
 # Changed icons, git integration and added transient promt 
-# Using Catppuccin colors
+# Using Catppuccin Mocha color scheme
 
 # yaml-language-server: $schema=https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
 final_space: true
@@ -19,7 +19,7 @@ blocks:
         template: "\uf427"
       - type: path
         style: plain
-        foreground: "#74c7ec"
+        foreground: "#b4befe"
         template: " \uf07b {{ .Path }} "
         properties: 
           folder_separator_icon: "/"

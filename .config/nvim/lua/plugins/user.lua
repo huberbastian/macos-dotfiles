@@ -1,11 +1,7 @@
 return {
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
-
+  { "brenoprata10/nvim-highlight-colors", opts = {
+    render = "background",
+  } },
   {
     "folke/snacks.nvim",
     opts = {
