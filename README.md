@@ -1,4 +1,4 @@
-# MacOS 💻 Config Files
+# 💻 MacOS Config Files
 
 Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 
@@ -12,7 +12,7 @@ Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 | 🖼️ Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
 | 📟 Terminal | [Ghostty](https://ghostty.org/) |
 | 🐚 Shell | [Zsh](https://www.zsh.org/) |
-|〔〕Prompt | [Oh My Posh](https://ohmyposh.dev/) |
+| ⌘ Prompt | [Oh My Posh](https://ohmyposh.dev/) |
 | 📝 Editor | [LazyVim](https://www.lazyvim.org/) |
 
 ## Usage
