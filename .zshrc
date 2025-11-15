@@ -26,6 +26,7 @@ export JAVA_HOME="/opt/homebrew/opt/openjdk"
 export PNPM_HOME="$HOME/Library/pnpm"
 
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="$PNPM_HOME/bin:$PATH"
 

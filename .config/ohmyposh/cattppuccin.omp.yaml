@@ -20,7 +20,7 @@ blocks:
       - type: path
         style: plain
         foreground: "#89b4fa"
-        template: "  {{ .Path }} "
+        template: " {{ .Path }} "
         properties: 
           folder_separator_icon: "/"
           style: full
