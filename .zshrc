@@ -42,6 +42,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Oh My Posh Theme
-if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh --config '~/.config/ohmyposh/cattppuccin.omp.yaml')"
-fi
+# if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+#   eval "$(oh-my-posh init zsh --config '~/.config/ohmyposh/cattppuccin.omp.yaml')"
+# fi
+
+eval "$(starship init zsh)"
