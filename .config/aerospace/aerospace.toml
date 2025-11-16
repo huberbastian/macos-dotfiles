@@ -1,5 +1,5 @@
-# https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
-# config is here: ~/.config/borders/bordersrc
+## https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
+## config is here: ~/.config/borders/bordersrc
 after-startup-command = ['exec-and-forget borders']
 
 start-at-login = true
@@ -7,26 +7,21 @@ start-at-login = true
 enable-normalization-flatten-containers = true
 enable-normalization-opposite-orientation-for-nested-containers = true
 
-## Notify sketckybar on workspace change: https://nikitabobko.github.io/AeroSpace/guide#exec-on-workspace-change-callback
-exec-on-workspace-change = ['/bin/bash', '-c',
-    'sketchybar --trigger aerospace_workspace_change FOCUSED=$AEROSPACE_FOCUSED_WORKSPACE'
-]
-
 accordion-padding = 30
 
-# Possible values: tiles|accordion
+## Possible values: tiles|accordion
 default-root-container-layout = 'tiles'
 
 default-root-container-orientation = 'auto'
 
-# Mouse follows focus when focused monitor changes
+## Mouse follows focus when focused monitor changes
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
-# You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
+## You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 automatically-unhide-macos-hidden-apps = true
 
 [key-mapping]
-  # Possible values: (qwerty|dvorak|colemak)
+  ## Possible values: (qwerty|dvorak|colemak)
   preset = 'qwerty'
 
 [gaps]
@@ -39,7 +34,7 @@ automatically-unhide-macos-hidden-apps = true
   inner.vertical   = 9
 
 [workspace-to-monitor-force-assignment]
-  # See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
+  ## See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
   1 = 'main'
   2 = 'main'
   3 = 'main'
@@ -52,25 +47,32 @@ automatically-unhide-macos-hidden-apps = true
 
 [mode.main.binding]
 
-  # All possible keys:
+  ## All possible keys:
 
-  # - Numbers.        0, 1, 2, ..., 9
-  # - Keypad numbers. keypad0, keypad1, keypad2, ..., keypad9
-  # - F-keys.         f1, f2, ..., f20
-  # - Special keys.   minus, equal, period, comma, slash, backslash, quote, semicolon,
-  #                   backtick, leftSquareBracket, rightSquareBracket, space, enter, esc,
-  #                   backspace, tab, pageUp, pageDown, home, end, forwardDelete,
-  #                   sectionSign (ISO keyboards only, european keyboards only)
-  # - Keypad special. keypadClear, keypadDecimalMark, keypadDivide, keypadEnter, keypadEqual,
-  #                   keypadMinus, keypadMultiply, keypadPlus
-  # - Arrows.         left, down, up, right
+  ## - Numbers.        0, 1, 2, ..., 9
+  ## - Keypad numbers. keypad0, keypad1, keypad2, ..., keypad9
+  ## - F-keys.         f1, f2, ..., f20
+  ## - Special keys.   minus, equal, period, comma, slash, backslash, quote, semicolon,
+  ##                   backtick, leftSquareBracket, rightSquareBracket, space, enter, esc,
+  ##                   backspace, tab, pageUp, pageDown, home, end, forwardDelete,
+  ##                   sectionSign (ISO keyboards only, european keyboards only)
+  ## - Keypad special. keypadClear, keypadDecimalMark, keypadDivide, keypadEnter, keypadEqual,
+  ##                   keypadMinus, keypadMultiply, keypadPlus
+  ## - Arrows.         left, down, up, right
 
-  # All possible modifiers: cmd, alt, ctrl, shift
+  ## All possible modifiers: cmd, alt, ctrl, shift
 
   cmd-h = [] # Disable "hide application"
   cmd-alt-h = [] # Disable "hide others"
   
   alt-q = 'close'
+
+  ## Use the open command for application shortcuts
+  ## Some shortcuts (Spotlight, Screenshots) are set in Settings
+
+  cmd-enter = 'exec-and-forget open -n -a "ghostty"'
+  cmd-e = 'exec-and-forget open -a "Finder"'
+  cmd-period = 'exec-and-forget open -a "System Settings"'
 
   alt-slash = 'layout tiles horizontal vertical'
   alt-comma = 'layout accordion horizontal vertical'
@@ -103,7 +105,7 @@ automatically-unhide-macos-hidden-apps = true
   alt-8 = 'workspace 8'
   alt-9 = 'workspace 9'
 
-  # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
+  ## See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
   alt-shift-1 = ['move-node-to-workspace 1', 'workspace 1']       
   alt-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
   alt-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
@@ -139,10 +141,5 @@ automatically-unhide-macos-hidden-apps = true
 
 [[on-window-detected]]
   if.app-id = 'com.apple.AppStore'
-  check-further-callbacks = true
-  run = 'layout floating'
-
-[[on-window-detected]]
-  if.app-id = 'com.NeatDownloadManager'
   check-further-callbacks = true
   run = 'layout floating'
