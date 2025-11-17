@@ -11,4 +11,11 @@ return {
       colorscheme = "catppuccin",
     },
   },
+
+  {
+    "catppuccin/nvim",
+    opts = {
+      transparent_background = true,
+    },
+  },
 }

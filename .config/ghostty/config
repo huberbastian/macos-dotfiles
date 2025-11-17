@@ -20,12 +20,12 @@ mouse-hide-while-typing = false
 mouse-scroll-multiplier = 1
 
 background-opacity = 0.8
-background-opacity-cells = false
 background-blur = true
+background-opacity-cells = false
 
 command = 
 initial-command = 
-env = 
+env = TERM=xterm-256color
 input = 
 wait-after-command = false
 
@@ -41,6 +41,6 @@ window-decoration = auto
 quit-after-last-window-closed = true
 
 macos-titlebar-style = hidden
-macos-option-as-alt = true 
+macos-option-as-alt = true
 macos-window-shadow = true
 macos-hidden = never
