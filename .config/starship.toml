@@ -2,18 +2,21 @@
 
 add_newline = false
 
+format = "[ ](bold text)$all"
+
 palette = "catppuccin_mocha"
 
 [character]
 success_symbol = "[➜](green)"
 error_symbol = "[➜](red)"
 vimcmd_symbol = "[❮](subtext1)"
+
 [git_branch]
 style = "bold mauve"
 
 [directory]
 truncation_length = 4
-style = "bold blue"
+style = "bold lavender"
 format = "[ ]($style)[$path]($style)[$read_only]($read_only_style) "
 
 # Palette definitions

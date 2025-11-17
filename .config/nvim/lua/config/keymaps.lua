@@ -4,7 +4,5 @@
 
 local map = vim.keymap.set
 
+-- Cycle buffers with tab
 map("n", "<tab>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
-map("n", "<leader>x", function()
-  Snacks.bufdelete()
-end, { desc = "Delete Buffer" })
