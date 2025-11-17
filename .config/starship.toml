@@ -12,11 +12,11 @@ error_symbol = "[➜](red)"
 vimcmd_symbol = "[❮](subtext1)"
 
 [git_branch]
-style = "bold mauve"
+style = "bold flamingo"
 
 [directory]
 truncation_length = 4
-style = "bold lavender"
+style = "bold mauve"
 format = "[ ]($style)[$path]($style)[$read_only]($read_only_style) "
 
 # Palette definitions
