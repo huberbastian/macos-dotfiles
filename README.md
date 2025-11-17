@@ -2,7 +2,7 @@
 
 Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 
-<img width="1512" height="982" alt="Screenshot 2025-11-17 at 19 49 00" src="https://github.com/user-attachments/assets/db75f4f5-7abd-4f4a-ad15-bf0ee6ebf5d7" />
+<img width="1512" height="982" alt="Screenshot 2025-11-17 at 21 07 08" src="https://github.com/user-attachments/assets/3cf73068-ee7c-4445-82f7-671bcac2460e" />
 
 ## Components
 
