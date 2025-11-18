@@ -2,8 +2,6 @@
 
 add_newline = false
 
-format = "[ ](bold text)$all"
-
 palette = "catppuccin_mocha"
 
 [character]
@@ -17,7 +15,7 @@ style = "bold flamingo"
 [directory]
 truncation_length = 4
 style = "bold mauve"
-format = "[ ]($style)[$path]($style)[$read_only]($read_only_style) "
+format = "[$path]($style)[$read_only]($read_only_style) "
 
 # Palette definitions
 [palettes.catppuccin_latte]

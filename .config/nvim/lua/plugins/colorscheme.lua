@@ -19,6 +19,11 @@ return {
       float = {
         transparent = true,
       },
+      custom_highlights = function(colors)
+        return {
+          CursorLine = { bg = colors.none },
+        }
+      end,
     },
   },
 }

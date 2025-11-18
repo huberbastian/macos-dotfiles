@@ -46,4 +46,5 @@ export NVM_DIR="$HOME/.nvm"
 #   eval "$(oh-my-posh init zsh --config '~/.config/ohmyposh/cattppuccin.omp.yaml')"
 # fi
 
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
