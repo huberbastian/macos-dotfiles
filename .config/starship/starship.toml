@@ -5,17 +5,16 @@ add_newline = false
 palette = "catppuccin_mocha"
 
 [character]
-success_symbol = "[➜](flamingo)"
-error_symbol = "[➜](red)"
+success_symbol = "[❯](peach)"
+error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](subtext1)"
 
 [git_branch]
-style = "bold flamingo"
+style = "bold mauve"
 
 [directory]
 truncation_length = 4
-style = "bold mauve"
-format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold lavender"
 
 # Palette definitions
 [palettes.catppuccin_latte]

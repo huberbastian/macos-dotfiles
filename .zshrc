@@ -4,6 +4,8 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
+source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+
 # Load Plugins
 zinit snippet OMZP::git
 zinit light zsh-users/zsh-completions
@@ -33,10 +35,10 @@ export PATH="$PNPM_HOME/bin:$PATH"
 # Aliases
 alias vi="nvim"
 alias svi="sudo nvim"
-alias ls="gls --color"
-alias la="gls -la --color"
+alias ls="eza --icons=always"
+alias la="eza -la --icons=always"
 
-# fnm for Node.js
+# fnm for Node.js, needs to be installed via homebrew
 eval "$(fnm env --use-on-cd --shell zsh)"
 
 # Starship prompt

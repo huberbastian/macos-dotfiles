@@ -25,7 +25,9 @@ brew "fastfetch"
 brew "ffmpeg"
 brew "fzf"
 brew "ripgrep"
-brew "mas"
+brew "eza"
+brew "bat"
+brew "chafa"
 brew "stow"
 brew "tmux"
 brew "borders"
@@ -58,17 +60,3 @@ cask "spotifiy"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-roboto"
-
-#============================
-# App Store Apps
-#============================
-
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
-mas "NordPass® Password Manager & Digital Vault", id: 6443917910
-mas "Surfshark", id: 1437809329
-mas "WhatsApp", id: 310633997
-mas "Xcode", id: 497799835
