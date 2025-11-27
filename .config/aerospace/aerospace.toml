@@ -1,5 +1,5 @@
-## https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
-## config is here: ~/.config/borders/bordersrc
+# https://github.com/FelixKratz/JankyBorders#bootstrap-with-aerospace
+# config is here: ~/.config/borders/bordersrc
 after-startup-command = ['exec-and-forget borders']
 
 start-at-login = true
@@ -9,137 +9,141 @@ enable-normalization-opposite-orientation-for-nested-containers = true
 
 accordion-padding = 30
 
-## Possible values: tiles|accordion
+# Possible values: tiles|accordion
 default-root-container-layout = 'tiles'
 
 default-root-container-orientation = 'auto'
 
-## Mouse follows focus when focused monitor changes
+# Mouse follows focus when focused monitor changes
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
-## You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
+# You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 automatically-unhide-macos-hidden-apps = true
 
 [key-mapping]
-  ## Possible values: (qwerty|dvorak|colemak)
-  preset = 'qwerty'
+# Possible values: (qwerty|dvorak|colemak)
+preset = 'qwerty'
 
 [gaps]
-  outer.left       = 12
-  outer.bottom     = 12
-  outer.top        = 12
-  outer.right      = 12
+outer.left = 12
+outer.bottom = 12
+outer.top = 12
+outer.right = 12
 
-  inner.horizontal = 9
-  inner.vertical   = 9
+inner.horizontal = 9
+inner.vertical = 9
 
 [workspace-to-monitor-force-assignment]
-  ## See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
-  1 = 'main'
-  2 = 'main'
-  3 = 'main'
-  4 = ['S240HL', 'secondary', 'main']
-  5 = ['S240HL', 'secondary', 'main']
-  6 = ['S240HL', 'secondary', 'main']
-  7 = ['G246HYL', 'secondary', 'main']
-  8 = ['G246HYL', 'secondary', 'main']
-  9 = ['G246HYL', 'secondary', 'main'] 
+# See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
+# Adjust this based on monitor arrangement
+1 = ['main']
+2 = ['main']
+3 = ['S240HL', 'secondary', 'main']
+4 = ['S240HL', 'secondary', 'main']
+5 = ['G246HYL', 'secondary', 'main']
+6 = ['G246HYL', 'secondary', 'main']
 
 [mode.main.binding]
 
-  ## All possible keys:
+# All possible keys:
 
-  ## - Numbers.        0, 1, 2, ..., 9
-  ## - Keypad numbers. keypad0, keypad1, keypad2, ..., keypad9
-  ## - F-keys.         f1, f2, ..., f20
-  ## - Special keys.   minus, equal, period, comma, slash, backslash, quote, semicolon,
-  ##                   backtick, leftSquareBracket, rightSquareBracket, space, enter, esc,
-  ##                   backspace, tab, pageUp, pageDown, home, end, forwardDelete,
-  ##                   sectionSign (ISO keyboards only, european keyboards only)
-  ## - Keypad special. keypadClear, keypadDecimalMark, keypadDivide, keypadEnter, keypadEqual,
-  ##                   keypadMinus, keypadMultiply, keypadPlus
-  ## - Arrows.         left, down, up, right
+# - Numbers.        0, 1, 2, ..., 9
+# - Keypad numbers. keypad0, keypad1, keypad2, ..., keypad9
+# - F-keys.         f1, f2, ..., f20
+# - Special keys.   minus, equal, period, comma, slash, backslash, quote, semicolon,
+#                   backtick, leftSquareBracket, rightSquareBracket, space, enter, esc,
+#                   backspace, tab, pageUp, pageDown, home, end, forwardDelete,
+#                   sectionSign (ISO keyboards only, european keyboards only)
+# - Keypad special. keypadClear, keypadDecimalMark, keypadDivide, keypadEnter, keypadEqual,
+#                   keypadMinus, keypadMultiply, keypadPlus
+# - Arrows.         left, down, up, right
 
-  ## All possible modifiers: cmd, alt, ctrl, shift
+# All possible modifiers: cmd, alt, ctrl, shift
 
-  cmd-h = [] # Disable "hide application"
-  cmd-alt-h = [] # Disable "hide others"
-  
-  alt-q = 'close'
+cmd-h = []     # Disable "hide application"
+cmd-alt-h = [] # Disable "hide others"
 
-  ## Use the open command for application shortcuts
-  ## Some shortcuts (Spotlight, Screenshots) are set in Settings
+alt-q = 'close'
 
-  cmd-enter = 'exec-and-forget open -n -a "ghostty"'
-  cmd-e = 'exec-and-forget open -a "Finder"'
-  cmd-period = 'exec-and-forget open -a "System Settings"'
+# Use the open command for application shortcuts
+# Some shortcuts (Spotlight, Screenshots) are set in Settings
 
-  alt-slash = 'layout tiles horizontal vertical'
-  alt-comma = 'layout accordion horizontal vertical'
+cmd-enter = 'exec-and-forget open -n -a "ghostty"'
+cmd-e = 'exec-and-forget open -a "Finder"'
+cmd-period = 'exec-and-forget open -a "System Settings"'
 
-  alt-h = 'focus --boundaries all-monitors-outer-frame left'
-  alt-j = 'focus --boundaries all-monitors-outer-frame down'
-  alt-k = 'focus --boundaries all-monitors-outer-frame up'
-  alt-l = 'focus --boundaries all-monitors-outer-frame right'
+alt-slash = 'layout tiles horizontal vertical'
+alt-comma = 'layout accordion horizontal vertical'
 
-  alt-shift-h = 'move --boundaries all-monitors-outer-frame left'
-  alt-shift-j = 'move --boundaries all-monitors-outer-frame down'
-  alt-shift-k = 'move --boundaries all-monitors-outer-frame up' 
-  alt-shift-l = 'move --boundaries all-monitors-outer-frame right'
+alt-h = 'focus --boundaries all-monitors-outer-frame left'
+alt-j = 'focus --boundaries all-monitors-outer-frame down'
+alt-k = 'focus --boundaries all-monitors-outer-frame up'
+alt-l = 'focus --boundaries all-monitors-outer-frame right'
 
-  alt-ctrl-h = 'join-with left'
-  alt-ctrl-j = 'join-with down'
-  alt-ctrl-k = 'join-with up'
-  alt-ctrl-l = 'join-with right'
+alt-shift-h = 'move --boundaries all-monitors-outer-frame left'
+alt-shift-j = 'move --boundaries all-monitors-outer-frame down'
+alt-shift-k = 'move --boundaries all-monitors-outer-frame up'
+alt-shift-l = 'move --boundaries all-monitors-outer-frame right'
 
-  alt-minus = 'resize smart -50'
-  alt-equal = 'resize smart +50'
+alt-ctrl-h = 'join-with left'
+alt-ctrl-j = 'join-with down'
+alt-ctrl-k = 'join-with up'
+alt-ctrl-l = 'join-with right'
 
-  alt-1 = 'workspace 1'
-  alt-2 = 'workspace 2'
-  alt-3 = 'workspace 3'
-  alt-4 = 'workspace 4'
-  alt-5 = 'workspace 5'
-  alt-6 = 'workspace 6'
-  alt-7 = 'workspace 7'
-  alt-8 = 'workspace 8'
-  alt-9 = 'workspace 9'
+alt-minus = 'resize smart -50'
+alt-equal = 'resize smart +50'
 
-  ## See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-  alt-shift-1 = ['move-node-to-workspace 1', 'workspace 1']       
-  alt-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
-  alt-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
-  alt-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
-  alt-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
-  alt-shift-6 = ['move-node-to-workspace 6', 'workspace 6']
-  alt-shift-7 = ['move-node-to-workspace 7', 'workspace 7']
-  alt-shift-8 = ['move-node-to-workspace 8', 'workspace 8']
-  alt-shift-9 = ['move-node-to-workspace 9', 'workspace 9']
+alt-1 = 'workspace 1'
+alt-2 = 'workspace 2'
+alt-3 = 'workspace 3'
+alt-4 = 'workspace 4'
+alt-5 = 'workspace 5'
+alt-6 = 'workspace 6'
+alt-7 = 'workspace 7'
+alt-8 = 'workspace 8'
+alt-9 = 'workspace 9'
 
-  alt-shift-space = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
-  alt-shift-f = 'fullscreen'
-  alt-tab = 'workspace-back-and-forth'
-  alt-shift-tab = 'move-node-to-monitor --wrap-around next'
+# See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
+alt-shift-1 = ['move-node-to-workspace 1', 'workspace 1']
+alt-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
+alt-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
+alt-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
+alt-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
+alt-shift-6 = ['move-node-to-workspace 6', 'workspace 6']
+alt-shift-7 = ['move-node-to-workspace 7', 'workspace 7']
+alt-shift-8 = ['move-node-to-workspace 8', 'workspace 8']
+alt-shift-9 = ['move-node-to-workspace 9', 'workspace 9']
 
-  alt-shift-semicolon = 'mode service'
+alt-shift-space = [
+  'layout floating tiling',
+  'mode main',
+] # Toggle between floating and tiling layout
+alt-shift-f = 'fullscreen'
+alt-tab = 'workspace-back-and-forth'
+alt-shift-tab = 'move-node-to-monitor --wrap-around next'
+
+alt-shift-semicolon = 'mode service'
 
 [mode.service.binding]
-  esc = ['reload-config', 'mode main']
-  r = ['flatten-workspace-tree', 'mode main'] # reset layout
-  f = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
-  backspace = ['close-all-windows-but-current', 'mode main']
+esc = ['reload-config', 'mode main']
+r = ['flatten-workspace-tree', 'mode main'] # reset layout
+f = [
+  'layout floating tiling',
+  'mode main',
+] # Toggle between floating and tiling layout
+backspace = ['close-all-windows-but-current', 'mode main']
 
 [[on-window-detected]]
-  if.app-id = 'com.apple.finder'
-  check-further-callbacks = true
-  run = 'layout floating'
+if.app-id = 'com.apple.finder'
+check-further-callbacks = true
+run = 'layout floating'
 
 [[on-window-detected]]
-  if.app-id = 'com.apple.reminders'
-  check-further-callbacks = true
-  run = 'layout floating'
+if.app-id = 'com.apple.reminders'
+check-further-callbacks = true
+run = 'layout floating'
 
 [[on-window-detected]]
-  if.app-id = 'com.apple.AppStore'
-  check-further-callbacks = true
-  run = 'layout floating'
+if.app-id = 'com.apple.AppStore'
+check-further-callbacks = true
+run = 'layout floating'
