@@ -11,7 +11,7 @@ Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 | 🪟 Window Management | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
 | 🖼️ Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
 | 📟 Terminal | [Ghostty](https://ghostty.org/) |
-| 🐚 Shell | [Zsh](https://www.zsh.org/) |
+| 🐚 Shell | [Zsh](https://www.zsh.org/) / [Fish](https://fishshell.com/) |
 | 🖋️ Prompt | [Starship](https://starship.rs/) |
 | 📝 Editor | [LazyVim](https://www.lazyvim.org/) |
 
