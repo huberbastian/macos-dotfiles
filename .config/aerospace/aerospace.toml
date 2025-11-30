@@ -38,10 +38,10 @@ inner.vertical = 9
 # Adjust this based on monitor arrangement
 1 = ['main']
 2 = ['main']
-3 = ['S240HL', 'secondary', 'main']
-4 = ['S240HL', 'secondary', 'main']
-5 = ['G246HYL', 'secondary', 'main']
-6 = ['G246HYL', 'secondary', 'main']
+3 = ['G246HYL', 'secondary', 'main']
+4 = ['G246HYL', 'secondary', 'main']
+5 = ['T24i-10', 'secondary', 'main']
+6 = ['T24i-10', 'secondary', 'main']
 
 [mode.main.binding]
 
