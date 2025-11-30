@@ -31,6 +31,7 @@ brew "chafa"
 brew "stow"
 brew "tmux"
 brew "borders"
+brew "starship"
 
 #============================
 # Casks
