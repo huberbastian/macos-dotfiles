@@ -17,6 +17,8 @@ if status is-interactive
     alias ls="eza --icons=always"
     alias la="eza -la --icons=always"
 
+    fnm env --use-on-cd --shell fish | source
+
     set -gx STARSHIP_CONFIG "$HOME/.config/starship/starship.toml"
     starship init fish | source
 end
