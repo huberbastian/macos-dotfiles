@@ -2,8 +2,6 @@
 
 Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 
-<img width="1512" height="982" alt="Screenshot 2025-11-17 at 21 07 08" src="https://github.com/user-attachments/assets/3cf73068-ee7c-4445-82f7-671bcac2460e" />
-
 ## Components
 
 | Category | Software |
@@ -13,7 +11,7 @@ Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 | 📟 Terminal | [Ghostty](https://ghostty.org/) |
 | 🐚 Shell | [Zsh](https://www.zsh.org/) / [Fish](https://fishshell.com/) |
 | 🖋️ Prompt | [Starship](https://starship.rs/) |
-| 📝 Editor | [LazyVim](https://www.lazyvim.org/) |
+| 📝 Editor | [Neovim (LazyVim)](https://www.lazyvim.org/) |
 
 ## Usage
 
