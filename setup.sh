@@ -26,6 +26,12 @@ confirm() {
   esac
 }
 
+if confirm "Not tested, run at your own risk! Continue?" "N"; then
+  echo "Continuing..."
+else
+  exit 0
+fi
+
 # See http://apple.stackexchange.com/questions/107307/how-can-i-install-the-command-line-tools-completely-from-the-command-line
 if ! xcode-select -p >/dev/null 2>&1; then
   if confirm "Xcode Command Line Tools are required, would you like to install them now?" "Y"; then
