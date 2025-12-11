@@ -3,7 +3,7 @@
 command = /usr/bin/env fish
 
 shell-integration = detect
-shell-integration-features = sudo, title
+shell-integration-features = no-cursor, sudo, title
 
 font-family = JetBrains Mono
 font-size = 16

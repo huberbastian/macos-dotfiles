@@ -147,3 +147,8 @@ run = 'layout floating'
 if.app-id = 'com.apple.AppStore'
 check-further-callbacks = true
 run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.aone.keka'
+check-further-callbacks = true
+run = 'layout floating'
