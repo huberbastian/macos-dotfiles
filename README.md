@@ -8,8 +8,8 @@ Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 |----------|----------|
 | 🪟 Window Management | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
 | 🖼️ Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
-| 📟 Terminal | [Ghostty](https://ghostty.org/) |
-| 🐚 Shell | [Zsh](https://www.zsh.org/) / [Fish](https://fishshell.com/) |
+| 📟 Terminal | [Ghostty](https://ghostty.org/) / [Kitty](https://sw.kovidgoyal.net/kitty/)|
+| 🐚 Shell | [Zsh](https://www.zsh.org/)(Default) / [Fish](https://fishshell.com/) |
 | 🖋️ Prompt | [Starship](https://starship.rs/) |
 | 📝 Editor | [Neovim (LazyVim)](https://www.lazyvim.org/) |
 
