@@ -31,6 +31,7 @@ export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="$PNPM_HOME/bin:$PATH"
+export PATH="$/Library/TeX/texbin:$PATH"
 
 # Aliases
 alias vi="nvim"
