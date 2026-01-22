@@ -68,7 +68,7 @@ alt-q = 'close'
 # Use the open command for application shortcuts
 # Some shortcuts (Spotlight, Screenshots) are set in Settings
 
-cmd-enter = 'exec-and-forget open -n -a "ghostty"'
+cmd-enter = 'exec-and-forget open -n -a "kitty"'
 cmd-e = 'exec-and-forget open -a "Finder"'
 cmd-period = 'exec-and-forget open -a "System Settings"'
 

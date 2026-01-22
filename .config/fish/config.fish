@@ -1,6 +1,10 @@
 if status is-interactive
     set -U fish_greeting
 
+    if test -d /opt/homebrew
+        /opt/homebrew/bin/brew shellenv | source
+    end
+
     fish_config theme choose "Catppuccin Mocha"
 
     set -gx EDITOR nvim
