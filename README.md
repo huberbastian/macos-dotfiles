@@ -8,8 +8,8 @@ Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 |----------|----------|
 | 🪟 Window Management | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
 | 🖼️ Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
-| 📟 Terminal | [Ghostty](https://ghostty.org/) / [Kitty](https://sw.kovidgoyal.net/kitty/)|
-| 🐚 Shell | [Zsh](https://www.zsh.org/)(Default) / [Fish](https://fishshell.com/) |
+| 📟 Terminal | [Kitty](https://sw.kovidgoyal.net/kitty/) |
+| 🐚 Shell | [Zsh](https://www.zsh.org/)(Default) / [Fish](https://fishshell.com/)(Interactive) |
 | 🖋️ Prompt | [Starship](https://starship.rs/) |
 | 📝 Editor | [Neovim (LazyVim)](https://www.lazyvim.org/) |
 
@@ -22,7 +22,7 @@ Aerospace with [Catppuccin](https://catppuccin.com/) colors.
 brew install stow
 ```
 
-3. Clone the repository and run stow to create symlinks
+1. Clone the repository and run stow to create symlinks
 
 ```bash
 mkdir -p ~/dotfiles
