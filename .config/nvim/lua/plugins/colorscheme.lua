@@ -2,7 +2,7 @@ return {
   -- add a colorscheme here
   -- tokyonight and catppuccin are installed by default
 
-  -- { "ellisonleao/gruvbox.nvim" },
+  { "ellisonleao/gruvbox.nvim" },
 
   -- set colorscheme
   {

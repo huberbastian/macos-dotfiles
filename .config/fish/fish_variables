@@ -7,4 +7,4 @@ SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fish
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ecatppuccin/fish\x1ejhillyerd/plugin\x2dgit
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_greeting:\x1d
-SETUVAR fish_user_paths:/Library/TeX/texbin\x1e/Users/basti/Library/pnpm\x1e/opt/homebrew/opt/openjdk/bin\x1e/Users/basti/bin
+SETUVAR fish_user_paths:/Users/basti/go/bin\x1e/Library/TeX/texbin\x1e/Users/basti/Library/pnpm\x1e/opt/homebrew/opt/openjdk/bin\x1e/Users/basti/bin
