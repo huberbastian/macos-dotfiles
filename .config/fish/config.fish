@@ -15,8 +15,8 @@ if status is-interactive
     fish_add_path "$HOMO/.local/bin"
     fish_add_path "$JAVA_HOME/bin"
     fish_add_path "$PNPM_HOME"
-    fish_add_path /Library/TeX/texbin
     fish_add_path /Users/basti/go/bin
+    fish_add_path "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
     alias vi="nvim"
     alias svi="sudo nvim"

@@ -60,8 +60,8 @@ inner.vertical = 9
 
 # All possible modifiers: cmd, alt, ctrl, shift
 
-cmd-h = []     # Disable "hide application"
-cmd-alt-h = [] # Disable "hide others"
+cmd-h = 'macos-native-minimize' # Disable "hide application"
+cmd-alt-h = []                  # Disable "hide others"
 
 alt-q = 'close'
 
@@ -150,5 +150,15 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'com.aone.keka'
+check-further-callbacks = true
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.colliderli.iina'
+check-further-callbacks = true
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Preview'
 check-further-callbacks = true
 run = 'layout floating'
