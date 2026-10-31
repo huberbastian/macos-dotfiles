@@ -1,17 +1,6 @@
 # 💻 MacOS Config Files
 
-Aerospace with [Catppuccin](https://catppuccin.com/) colors.
-
-## Components
-
-| Category | Software |
-|----------|----------|
-| 🪟 Window Management | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
-| 🖼️ Window Borders | [JankyBorders](https://github.com/FelixKratz/JankyBorders) |
-| 📟 Terminal | [Kitty](https://sw.kovidgoyal.net/kitty/) |
-| 🐚 Shell | [Zsh](https://www.zsh.org/)(Default) / [Fish](https://fishshell.com/)(Interactive) |
-| 🖋️ Prompt | [Starship](https://starship.rs/) |
-| 📝 Editor | [Neovim (LazyVim)](https://www.lazyvim.org/) |
+My MacOS config files
 
 ## Usage
 
