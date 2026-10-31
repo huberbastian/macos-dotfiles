@@ -1,3 +1,7 @@
+# The following lines were added by Docker Desktop to add commands to your PATH.
+export PATH="$PATH:/Users/basti/.docker/bin"
+# End of Docker Desktop section.
+
 if status is-interactive
     set -U fish_greeting
 
@@ -12,7 +16,7 @@ if status is-interactive
     set -gx PNPM_HOME "$HOME/Library/pnpm"
 
     fish_add_path "$HOME/bin"
-    fish_add_path "$HOMO/.local/bin"
+    fish_add_path "$HOME/.local/bin"
     fish_add_path "$JAVA_HOME/bin"
     fish_add_path "$PNPM_HOME"
     fish_add_path /Users/basti/go/bin
@@ -22,6 +26,7 @@ if status is-interactive
     alias svi="sudo nvim"
     alias ls="eza --icons=always"
     alias la="eza -la --icons=always"
+    alias ytdl="yt-dlp -S res,ext:mp4:m4a --recode mp4"
 
     fnm env --use-on-cd --shell fish | source
 

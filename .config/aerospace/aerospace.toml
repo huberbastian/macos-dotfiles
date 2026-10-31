@@ -20,6 +20,9 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 # You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 automatically-unhide-macos-hidden-apps = true
 
+# Focus window under cursor. No more double clicking
+focus-follows-mouse.enabled = true
+
 [key-mapping]
 # Possible values: (qwerty|dvorak|colemak)
 preset = 'qwerty'
